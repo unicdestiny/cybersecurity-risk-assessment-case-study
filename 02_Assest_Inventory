@@ -1,0 +1,24 @@
+Customer Information
+- Used by: Customer service, finance, booking systems
+- Purpose: Manage customer journeys and bookings
+- Classification: Medium
+- Reason: trust and privacy of clients is affected and is used in everyday tasks 
+
+Payment Information/System
+- Used by: Finance, customers, payment services
+- Purpose: Process and verify transactions
+- Classification: High
+- Reason: Critical used in day to day tasks and is a problem because of integrity of payment records can stop operations
+
+Partner Contact Information:
+- Used by: Partnership/booking agents
+- Purpose: Manage relationships with hotels, airlines, transport providers
+- Classification: Low
+- Reason: Information abouth the companies used
+
+Partner Contracts and Agreements
+- Used by: Partnership/booking agents
+- Purpose: Manage contracts between partners with hotels, airlines, transport providers
+- Classification: High
+- Reason: Pricing agreements, negotiated terms, operations arrangements
+
