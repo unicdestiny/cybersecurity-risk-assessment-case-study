@@ -1,1 +1,155 @@
+# Threat Assessment
 
+## Purpose
+
+This document identifies possible threats against important business assets of Reach for the Horizon. The assessment focuses on confidentiality, integrity, and availability (CIA) impacts.
+
+---
+
+# Asset: Payment Information/System
+
+## Description
+
+The payment information system is used by the finance department, customers, and payment services to process and verify transactions.
+
+---
+
+## Confidentiality Threats
+
+### Unauthorized access to payment information
+
+**Possible causes:**
+- Social engineering attacks targeting employees
+- Shoulder surfing
+- Someone building trust with employees who have access
+- Abuse of employee permissions
+
+**Potential impact:**
+- Payment information could be exposed.
+- Customers could become victims of fraud.
+- Trust in the company could decrease.
+
+---
+
+## Integrity Threats
+
+### Incorrect modification of payment records
+
+**Possible causes:**
+- Unauthorized users changing information
+- Compromised accounts
+- Incorrect changes made by users
+
+**Potential impact:**
+- Customers may receive incorrect invoices.
+- Finance may not be able to verify transactions correctly.
+- Incorrect bookings may be created.
+- Partners may lose trust due to incorrect payments or bookings.
+- Company reputation may be damaged.
+
+---
+
+## Availability Threats
+
+### Payment system becoming unavailable
+
+**Possible causes:**
+- Power failures
+- Network failures
+- Accidental damage to infrastructure
+- Incorrect system configuration
+- Extreme weather events
+- Sabotage
+
+**Potential impact:**
+- Customers cannot complete bookings.
+- Revenue is lost.
+- Partners cannot receive confirmation of transactions.
+- Customers may move to competitors.
+- Business operations are disrupted.
+
+---
+
+# Asset: Customer Information
+
+## Description
+
+Customer information is used by customer service, finance, and booking systems to manage customer journeys and bookings.
+
+---
+
+## Confidentiality Threats
+
+### Unauthorized access to customer information
+
+**Possible causes:**
+- Social engineering
+- Stolen credentials
+- Application vulnerabilities
+- Incorrect permissions
+- Third-party exposure
+
+**Potential impact:**
+- Customer privacy is affected.
+- Customer trust decreases.
+- Company reputation is damaged.
+- Possible legal consequences.
+
+---
+
+## Integrity Threats
+
+### Incorrect modification of customer information
+
+**Possible causes:**
+- Human error
+- Unauthorized changes
+- Incorrect data entry
+
+**Potential impact:**
+- Customers may receive incorrect travel information.
+- Customers may arrive at the wrong destination, hotel, or transport location.
+- Employees cannot provide correct support.
+- Partners may receive incorrect information.
+- Additional costs may occur due to corrections.
+
+---
+
+## Availability Threats
+
+### Customer information becoming unavailable
+
+**Possible causes:**
+- System failure
+- Database unavailable
+- Loss of access to customer records
+
+**Potential impact:**
+- Customers may miss flights or travel arrangements.
+- Airports and partners may not know which customers they are expecting.
+- Employees cannot provide normal customer support.
+- Manual processes are required.
+
+---
+
+# Risk Priority Summary
+
+## Customer Information
+
+1. Unauthorized access / data theft
+2. Incorrect modification of information
+3. Information becoming unavailable
+
+Reason:
+Customer information theft has the highest concern because of the combination of likelihood, privacy impact, legal consequences, and damage to customer trust.
+
+---
+
+## Payment Information/System
+
+1. Unauthorized access to payment information
+2. Payment system becoming unavailable
+3. Incorrect modification of payment records
+
+Reason:
+Payment information is critical for daily operations, and compromise can directly affect financial processes, customers, and business continuity.
